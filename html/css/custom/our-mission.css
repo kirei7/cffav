@@ -1,0 +1,73 @@
+#our-mission {
+    background: #014c8f;
+}
+.mission-text {
+    padding: 90px 60px 0;
+}
+#our-mission p, #our-mission b {
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+#our-mission p {
+    font-size: 18px;
+}
+
+ul.nav a[href="what_we_do.php"]>span {
+    border-bottom: 3px solid white;
+}
+
+#mission-items {
+    background: white;
+    padding: 90px 85px;
+}
+#mission-items h1 {
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    position: relative;
+}
+#mission-items h1 span{
+    background: #ee2744;
+    height: 42px;
+    line-height: 42px;
+    padding: 9px 20px;
+    text-transform: uppercase;
+}
+.mission-item {
+    margin-top: 70px;
+    height: 550px;
+}
+.mission-item strong {
+    height: 90px;
+    line-height: 90px;
+    width: 75px;
+    text-align: center;
+    font-size: 54px;
+    background: #ee2744;
+    float: left;
+    color: white;
+    /*letter-spacing: -7px;*/
+}
+.mission-item h2 {
+    height: 42px;
+    line-height: 42px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    position: relative;
+    top: 1px;
+}
+.mission-item h2 span {
+    background: #014c8f;
+    padding: 9px 20px;
+
+}
+.mission-item main p {
+    margin-top: 30px;
+    color: #014c8f;
+    font-size: 18px;
+}

@@ -1,0 +1,112 @@
+#contact>.row {
+    margin: 0;
+}
+#contact>.row>.col-sm-6 {
+    padding: 50px 80px;
+    background: #014c8f;
+    height: 100%;
+    position: relative;
+    min-height: 670px;
+}
+#contact>.row>.col-sm-6:last-child {
+    background: white;
+}
+#contact p {
+    font-size: 20px;
+    margin: 30px auto;
+}
+#contact strong {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+}
+#contact img {
+    margin-top: 30px;
+}
+
+/*styles for a placeholder*/
+#contact-form input::-webkit-input-placeholder{
+    color: #014c8f;
+}
+#contact-form input::-moz-placeholder{
+    color: #014c8f;
+}
+#contact-form input:-moz-placeholder{
+    color: #014c8f;
+}
+#contact-form input:-ms-input-placeholder{
+    color: #014c8f;
+}
+/*styles for a placeholder end*/
+#contact-form>div:first-child input, #contact-form label {
+    color: #014c8f;
+}
+#contact-form label {
+    font-size: 18px;
+}
+.textfields label {
+    display: block;
+    margin-top: 35px;
+}
+.textfields input {
+    font-size: 16px;
+    margin-top: 15px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #014c8f;
+    display: inline-block;
+    color: #014c8f;
+}
+#contact-form input.link-red {
+    border: none;
+}
+.textfields input{
+    position: relative;
+    width: 100%;
+}
+.textfields>div:first-child>input {
+    width: 190px;
+}
+.textfields>div:first-child>label {
+    margin-top: 0;
+}
+
+.subscription {
+    margin-top: 30px;
+}
+.subscription>div {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 15px;
+}
+.subscription label {
+    margin-left: -3px;
+    padding-left: 6px;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    width: 17px !important;
+    height: 17px !important;
+    border: 2px solid #014c8f !important;
+    margin: 4px 0 0 0 !important;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+input[type=checkbox]:hover, .subscription label {
+    cursor: pointer;
+}
+input[type=checkbox]:checked {
+    background: #f12842;
+}
+.subscription input[type=checkbox]:focus {
+    outline: none;
+}
+
+ul.nav a[href="contact_us.php"]>span {
+    border-bottom: 3px solid white;
+}

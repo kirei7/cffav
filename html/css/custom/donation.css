@@ -1,0 +1,138 @@
+#donation {
+    background: #f12842;
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+#donation-full {
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.donation-text {
+    padding: 0 30px 15px 80px;
+}
+.donation-text h1 {
+    margin-top: 0;
+}
+.donation-text img {
+    margin: 60px auto;
+    position: relative;
+    left: -15px;
+}
+.donation-text p {
+    font-size: 20px;
+}
+
+#donation h2 {
+    height: 43px;
+    line-height: 43px;
+    width: 100%;
+    max-width: 380px;
+    background: white;
+    color: #f12842;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0;
+}
+.donation-group {
+    display: inline-block;
+    font-size: 32px;
+    color: white;
+    margin-right: 60px;
+}
+.donation-group.donate-monthly label {
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+.donation-group label {
+    cursor: pointer;
+}
+.donation-group input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 3px solid #f12842;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.donation-group input[type="radio"]:focus {
+    outline: none;
+}
+.donation-group input[type="radio"]:checked {
+    background: white;
+}
+.radio-wrap {
+    width: 18px;
+    height: 18px;
+    border: 1px solid white;
+    border-radius: 18px;
+    display: inline-block;
+    position: relative;
+}
+.donation-amount {
+    color: #fa9da9;
+    font-size: 18px;
+}
+.donation-amount input {
+    width: 128px;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fa9da9;
+}
+.donation-amount span {
+    position: relative;
+    bottom: -9px;
+}
+#donation input[type="submit"] {
+    padding: 0 40px;
+    height: 70px;
+    line-height: 70px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.donation-amount input::-webkit-input-placeholder {color:#fa9da9;}
+.donation-amount input::-moz-placeholder          {color:#fa9da9;}/* Firefox 19+ */
+.donation-amount input:-moz-placeholder           {color:#fa9da9;}/* Firefox 18- */
+.donation-amount input:-ms-input-placeholder      {color:#fa9da9;}
+
+.donation-amount input:focus::-webkit-input-placeholder {color:transparent;}
+.donation-amount input:focus::-moz-placeholder          {color:transparent;}/* Firefox 19+ */
+.donation-amount input:focus:-moz-placeholder           {color:transparent;}/* Firefox 18- */
+.donation-amount input:focus:-ms-input-placeholder      {color:transparent;}
+
+#donation p {
+    margin-top: 60px;
+    font-size: 19px;
+    color: white;
+}
+#d-monthly {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    width: 17px;
+    height: 17px;
+    border: 2px solid white;
+    background: none;
+}
+#d-monthly:hover {
+    cursor: pointer;
+}
+#d-monthly:checked {
+    background: white;
+}
+#d-monthly:focus {
+    outline: none;
+}

@@ -1,0 +1,22 @@
+#careers {
+    background: #014c8f;
+}
+.careers-text {
+    padding: 90px 60px 0;
+}
+#careers h4 {
+    background: white;
+    color: #014c8f;
+    font-size: 21px;
+    display: inline-block;
+    width: 335px;
+    height: 45px;
+    line-height: 45px;
+}
+#careers p {
+    font-size: 20px;
+}
+
+ul.nav a[href="careers.php"]>span {
+    border-bottom: 3px solid white;
+}

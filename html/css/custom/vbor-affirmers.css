@@ -1,0 +1,64 @@
+#vbor-support {
+    padding: 0 80px 80px;
+}
+#vbor-support h1 {
+    margin-top: 0;
+    margin-bottom: 65px;
+    font-size: 37px;
+}
+#vbor-support h2 {
+    color: black;
+    height: 42px;
+    line-height: 42px;
+    width: 350px;
+    text-align: center;
+    background: white;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+#vbor-support p {
+    font-size: 20px;
+    margin-bottom: 65px;
+}
+#vbor-support img {
+    margin-bottom: 50px;
+}
+
+#representatives {
+    padding: 75px 80px;
+    background: white;
+}
+#representatives h1 {
+    font-size: 43px;
+    color: #014c8f;
+}
+
+#representatives h2 {
+    font-size: 26px;
+    color: #f12842;
+    margin: 65px 0;
+}
+#representatives h2 span{
+    font-size: 36px;
+}
+#representatives p {
+    color: #014c8f;
+    font-size: 18px;
+    text-align: left;
+}
+#representatives main p:first-child {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #014c8f;
+}
+#representatives main p a {
+    color: #f12842;
+}
+#representatives main a.link-red {
+    margin-top: 65px;
+    padding: 0 15px;
+}
+#representatives p a img {
+    position: relative;
+    top: -2px;
+}

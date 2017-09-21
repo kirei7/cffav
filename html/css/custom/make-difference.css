@@ -1,0 +1,48 @@
+/*make difference section*/
+#make-difference>.row {
+    margin: 0;
+}
+#make-difference>.row>.col-sm-6 {
+    padding: 100px 80px 0;
+    background: white;
+    height: 570px;
+}
+#make-difference h1, #make-difference p {
+    color: #014c8f;
+}
+#make-difference p {
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 1.6;
+}
+#make-difference>.row>.col-sm-6:last-child {
+    background: #f12842;
+}
+#make-difference h1>span {
+    color: #f12842;
+}
+#address {
+    padding: 70px 0 65px;
+}
+#address p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+#address p span {
+    font-size: 42px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+#make-difference .donation-group.donation-amount {
+    margin-right: 0;
+    position: relative;
+    bottom: 9px;
+    left: 5px;
+}
+
+/*make difference section end*/
+
+ul.nav a[href="make_a_difference.php"]>span {
+    border-bottom: 3px solid white;
+}

@@ -1,0 +1,40 @@
+/*section founder*/
+#founder {
+    background: #014c8f;
+}
+.founder-text {
+    padding: 100px 55px 0 30px;
+}
+.founder-text p {
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.founder-text a, .quote a {
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 70px;
+    line-height: 70px;
+    width: 280px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*.quote {
+    background: url("../../img/meet-founder/quote.jpg") no-repeat;
+    background-size: cover;
+
+}*/
+.quote a {
+    border: 2px solid #f12842;
+    position: absolute;
+    bottom: 130px;
+    left: calc(50% - 140px);
+}
+/*section founder end*/
+
+ul.nav a[href="meet_our_founder.php"]>span {
+    border-bottom: 3px solid white;
+}

@@ -1,0 +1,115 @@
+#internship {
+    background: #014c8f;
+}
+.internship-text {
+    padding: 90px 60px 0;
+}
+#internship h4 {
+    background: white;
+    color: #014c8f;
+    font-size: 21px;
+    display: inline-block;
+    width: 500px;
+    height: 45px;
+    line-height: 45px;
+}
+#internship p {
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+#internship-application {
+    background: white;
+    padding: 90px 85px;
+}
+#internship-application h2 {
+    background: #f12842;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    width: 335px;
+    text-align: center;
+    padding: 10px 0;
+}
+#internship-application p {
+    font-size: 16px;
+    color: #014c8f;
+}
+
+#internship-form input::-webkit-input-placeholder{
+    color: #014c8f;
+}
+#internship-form input::-moz-placeholder{
+    color: #014c8f;
+}
+#internship-form input:-moz-placeholder{
+    color: #014c8f;
+}
+#internship-form input:-ms-input-placeholder{
+    color: #014c8f;
+}
+#internship-form button.link-red {
+    border: none;
+}
+.textfields label {
+    font-size: 18px;
+    color: #014c8f;
+    display: block;
+    margin-top: 35px;
+}
+.textfields label b {
+    color: #f12842;
+}
+.textfields input {
+    font-size: 16px;
+    margin-top: 15px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #014c8f;
+    display: inline-block;
+}
+#internship-form input.link-red {
+    border: none;
+}
+.textfields input{
+    position: relative;
+    width: 100%;
+}
+.radios {
+    font-size: 16px;
+    color: #014c8f;
+}
+.radios input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #014c8f;
+    border-radius: 10px;
+}
+.radios input[type="radio"]:checked {
+    background: url("../../img/internship/radio.png") center no-repeat;
+    background-size: 8px;
+}
+.radios input[type="radio"]:focus {
+    outline: none;
+}
+.radios input, .radios span {
+    display: inline-block;
+}
+.radios span {
+    margin-right: 70px;
+    position: relative;
+    bottom: 3px;
+}
+.form-pagination {
+    height: 70px;
+}
+.form-pagination span {
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    color: #014c8f;
+}

@@ -1,0 +1,8 @@
+1) make sub-menus for navigation (make difference, what we do)
+2) what is 'events' page exactly?
+3) 'internship' page needs some kind of a slider for the form
+4) 'help for michelle' check and fix paragraphs styles
+5) 'careers' make a form
+6) press release maybe pagination?
+7) press release detail is not made, make it
+8)
