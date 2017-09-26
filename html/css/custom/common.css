@@ -1,6 +1,6 @@
 /*common styles*/
 body {
-    background: url("../img/main/background.jpg") repeat-y;
+    background: url("../../img/main/background.jpg") repeat-y;
     background-size: cover;
     padding-bottom: 90px;
 }
@@ -56,6 +56,70 @@ nav .nav>li>a:hover {
 }
 nav .nav>li>a:focus, nav .nav>li>a:hover {
     background: none;
+}
+/*dropdown on hover ->*/
+nav .dropdown-menu {
+    margin: 0;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+    margin-top: 0;
+}
+/* <- dropdown on hover*/
+nav .dropdown-menu {
+    background-color: #f12842;
+    width: 260px;
+    padding: 10px 15px;
+}
+nav .dropdown-menu:before {
+    position: absolute;
+    top: -7px;
+    left: calc(50% - 6px);
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #f12842;
+    border-left: 7px solid transparent;
+    content: '';
+}
+nav .dropdown-menu>li {
+    text-align: center;
+    padding: 10px 0;
+}
+nav .dropdown-menu>li>a {
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    white-space: normal;
+    padding: 0;
+    line-height: 1.6;
+    margin: 0;
+}
+nav .dropdown-menu>li>a:hover {
+    background: none;
+}
+nav .dropdown-menu>li.dropdown-divider {
+    content: "";
+    display: block;
+    position: relative;
+    width: 70%;
+    border-bottom: 1px solid #a31b2c;
+    margin: 0 auto;
+    padding: 0;
+}
+#nav-make-difference .dropdown-menu {
+    left: -46px;
+}
+#nav-what-we-do .dropdown-menu {
+    left: -65px;
 }
 /*section header end*/
 
