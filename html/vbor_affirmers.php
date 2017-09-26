@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Veterans Bill of Rights affirmers</title>
+    <title>Veterans Bill of Rights Affirmers</title>
     <link href="css/custom/vbor-affirmers.css" rel="stylesheet">
     <?php include "parts/head.php" ?>
 </head>
 <body>
 <?php include "parts/header.php" ?>
+<div class="row nav-submenu">
+    <div class="col-xs-12">
+        <ul class="nav nav-pills">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="press_release.php">What We Do</a></li>
+            <li><a href="press_release_detail.php">Veterans Bill of Righ Affirmers</a></li>
+        </ul>
+    </div>
+</div>
 <section id="vbor-support">
     <div class="row">
         <div class="col-sm-6">

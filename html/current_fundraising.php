@@ -7,6 +7,15 @@
 </head>
 <body>
 <?php include "parts/header.php" ?>
+<div class="row nav-submenu">
+    <div class="col-xs-12">
+        <ul class="nav nav-pills">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="press_release.php">Make a Difference</a></li>
+            <li><a href="press_release_detail.php">Current Fundraising</a></li>
+        </ul>
+    </div>
+</div>
 <section id="current-fundraising">
     <div class="row">
         <div class="col-sm-6">

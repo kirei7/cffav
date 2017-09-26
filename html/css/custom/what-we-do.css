@@ -56,6 +56,28 @@
 }
 /*history section end*/
 
-ul.nav a[href="what_we_do.php"]>span {
+ul.nav a[href="what_we_do.php"]>span:after {
+    content: "";
+    display: block;
+    width: 100%;
     border-bottom: 3px solid white;
+}
+
+/*responsive*/
+@media screen and (max-width: 767px){
+
+}
+@media screen and (max-width: 991px){
+    .what-we-do-content h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1199px){
+    #what-we-do p b{
+        font-size: 17px;
+    }
+    #what-we-do p {
+        font-size: 16px;
+    }
+
 }

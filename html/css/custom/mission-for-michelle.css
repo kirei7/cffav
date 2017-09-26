@@ -19,6 +19,9 @@ section {
 #mission-details p {
     color: #014c8f;
 }
+#mission-details header strong {
+    font-size: 22px;
+}
 
 #mission-help {
     background: #f12842;

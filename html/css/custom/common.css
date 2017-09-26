@@ -43,9 +43,16 @@ nav {
 nav li span {
     padding: 0 2px 2px 5px;
 }
-nav li.active span {
+/*nav li.active span {
     border-bottom: 3px solid white;
-}
+}*/
+/*nav li.active span:after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid white;
+}*/
+
 nav .nav>li>a {
     padding: 5px;
     font-size: 16px;
@@ -151,10 +158,62 @@ footer .copyright {
 }
 /*section footer end*/
 
+/*submenus nav*/
+.nav-submenu {
+    margin-top: -30px;
+    margin-bottom: 45px;
+    padding-left: 15px;
+}
+.nav-submenu li:last-child a {
+    font-weight: bold;
+}
+.nav-submenu li:last-child a:after {
+    content: "";
+}
+.nav-submenu a {
+    color: white;
+    font-size: 16px;
+}
+.nav-submenu a:after {
+    content: ">";
+    position: absolute;
+    right: -4px;
+}
+.nav-submenu .nav.nav-pills>li>a:hover {
+    background: none;
+    color: #cccccc;
+    text-decoration: none;
+}
+.nav-submenu a:focus {
+    outline: none;
+}
+
+
+/*submenus nav end*/
+
 nav a[href="donation.php"] {
     background: #f12842;
     border-radius: 7px;
 }
 nav .nav>li>a[href="donation.php"]:hover {
     background: #f12842;
+}
+
+/*responsive*/
+
+
+@media screen and (max-width: 1199px){
+    nav .nav > li > a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    nav .nav > li > a {
+        font-size: 14px;
+    }
+}@media screen and (max-width: 767px){
+    nav .nav > li > a {
+        font-size: 16px;
+    }
 }

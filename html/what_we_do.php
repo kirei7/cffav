@@ -9,12 +9,12 @@
 <?php include "parts/header.php" ?>
 <section id="what-we-do">
     <div class="row">
-        <div class="col-sm-5 col-sm-push-6">
+        <div class="col-md-6 col-md-push-6 col-lg-5 col-lg-push-6">
             <div class="what-we-do-content">
                 <img src="img/what-we-do/bodyimg.jpg" class="img-responsive center-block">
             </div>
         </div>
-        <div class="col-sm-5 col-sm-pull-5 col-sm-offset-1">
+        <div class="col-md-5 col-md-pull-6 col-lg-5 col-lg-pull-5 col-md-offset-1">
             <div class="what-we-do-content">
                 <h1>What We Do</h1>
                 <p><b>The Circle of Friends for American Veterans (COFAV) IS A 501(c)3 designated non-profit

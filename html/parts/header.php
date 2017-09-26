@@ -13,27 +13,27 @@
                         <span>What we Do</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="our_mission.php">Our Mission</a></li>
                         <li class="dropdown-divider"></li>
-                        <li><a href="#">Press Release</a></li>
+                        <li><a href="press_release.php">Press Release</a></li>
                         <li class="dropdown-divider"></li>
-                        <li><a href="#">Current Campaign For Veterans’ Facilities</a></li>
+                        <li><a href="current_fundraising.php">Current Campaign For Veterans’ Facilities</a></li>
                         <li class="dropdown-divider"></li>
                         <li><a href="#">Veterans’ Bill Of Rights</a></li>
                         <li class="dropdown-divider"></li>
-                        <li><a href="#">VBOR Affirmers</a></li>
+                        <li><a href="vbor_affirmers.php">VBOR Affirmers</a></li>
                     </ul>
                 </li>
                 <li id="nav-make-difference" class="dropdown">
-                    <a href="make_a_difference.php" data-toggle="dropdown" class="dropdown-toggle">
+                    <a href="make_a_difference.php">
                         <span>Make a Difference</span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Sign The Veterans’ Bill Of Rights</a></li>
+                        <li><a href="sign_bill.php">Sign The Veterans’ Bill Of Rights</a></li>
                         <li class="dropdown-divider"></li>
                         <li><a href="#">Events</a></li>
                         <li class="dropdown-divider"></li>
-                        <li><a href="#">Current Campaign For Veterans’ Facilities</a></li>
+                        <li><a href="current_fundraising.php">Current Campaign For Veterans’ Facilities</a></li>
                     </ul>
                 </li>
                 <li><a href="contact_us.php"><span>Contact Us</span></a></li>
@@ -44,15 +44,3 @@
             </ul>
         </nav>
     </header>
-
-    <!--<ul>
-        <li class="dropdown">
-            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-            </ul>
-        </li>
-    </ul>-->

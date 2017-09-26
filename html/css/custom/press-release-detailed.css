@@ -1,0 +1,22 @@
+#press-detail {
+    padding: 0 80px 100px 80px;
+    font-size: 20px;
+}
+#press-detail h1 {
+    font-size: 42px;
+    margin-top: 0;
+}
+#press-detail main {
+    margin-top: 40px;
+}
+#press-detail main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#press-detail main h4 {
+    background: #f12842;
+    display: block;
+    padding: 35px 42px;
+    font-size: 26px;
+    line-height: 1.6;
+}

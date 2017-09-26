@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Make a Difference</title>
+    <title>Press Release</title>
     <link href="css/custom/press-release.css" rel="stylesheet">
     <?php include "parts/head.php" ?>
 </head>

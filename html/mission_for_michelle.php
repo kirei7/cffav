@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Us</title>
+    <title>Mission for Michelle</title>
     <link href="css/custom/mission-for-michelle.css" rel="stylesheet">
     <?php include "parts/head.php" ?>
 </head>
 <body>
 <?php include "parts/header.php" ?>
+<div class="row nav-submenu">
+    <div class="col-xs-12">
+        <ul class="nav nav-pills">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="press_release.php">Make a Difference</a></li>
+            <li><a href="press_release_detail.php">Mission for Michelle</a></li>
+        </ul>
+    </div>
+</div>
 <section id="mission-overview">
     <div class="row">
         <div class="col-sm-6 col-sm-push-6">
@@ -22,10 +31,19 @@
     </div>
 </section>
 <section id="mission-details">
-    <div class="row">
+    <header class="row">
         <div class="col-sm-6">
             <p><strong>Michelle, the wife, had been married to a veteran for 24 years before he left her and their two
                     children behind, and was arrested for a year. </strong></p>
+        </div>
+        <div class="col-sm-6">
+            <p><strong>This was two years ago</strong>,and she has heard nothing back from them. She now owes 18,000 on
+                her house. She has raised some funds by herself, but still needs 12,000 or she will lose her house.
+                </p>
+        </div>
+    </header>
+    <main class="row">
+        <div class="col-sm-6">
             <p>He then hid his disability from her and their two children when she filed for a divorce. She has been
                 working since this and has had to chose between feeding her family or paying her mortgage, which the
                 husband has also stopped paying. He has not been providing financial support for the children, so the
@@ -33,13 +51,10 @@
                 looked for more work. </p>
         </div>
         <div class="col-sm-6">
-            <p><strong>This was two years ago</strong>,and she has heard nothing back from them. She now owes 18,000 on
-                her house. She has raised some funds by herself, but still needs 12,000 or she will lose her house.
-                </p>
             <p>The Circle of Friends has been working with her for quite a while and has been trying to slow down the
                 process of foreclosure so we have more time to raise the funds for Michelle.</p>
         </div>
-    </div>
+    </main>
 </section>
 <section id="mission-help">
     <div class="row">
